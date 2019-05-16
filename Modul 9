@@ -1,0 +1,9 @@
+Masuk ke direktori --> C:/xampp/mysql/bin
+Lakukan --> mysql -u root
+Membuat User baru --> Create user 'NamaUser'@'localhost' identified by 'password';
+Use mysql;
+Beri Hak Akses ke User --> GRANT Update on perbankan.nasabah to NamaUser@localhost;
+exit;
+Masuk ke User baru --> mysql -u NamaUser -p, masukkan password
+Use perbankan;
+Lakukan percobaan, Select, Delete, Insert
